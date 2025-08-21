@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     const calculateTimeLeft = () => {
       // Target: 21 Aug 2025, 8 AM BST
-      const target = new Date("2025-08-21T16:30:00+01:00"); // +01:00 for BST
+      const target = new Date("2025-08-21T15:30:00+01:00"); // +01:00 for BST
 
       const now = new Date();
       const diff = target.getTime() - now.getTime();
